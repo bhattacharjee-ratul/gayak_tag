@@ -48,7 +48,7 @@ Well, so we come down to two approaches:
 1. classification problem
 2. Generation problem
 
-# Approaches for devveloping the ML model for inference
+# Approaches for developing the ML model for inference
 ## Classification Problem:
 
 
