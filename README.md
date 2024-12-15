@@ -51,6 +51,23 @@ Well, so we come down to two approaches:
 # Approaches for developing the ML model for inference
 ## Classification Problem:
 
+Lets go back to the very basics. Let imagine a classification problem as this 
+input : X where X is a tensor or N-dimensional matrix
+output : y where y is a vector corresponding to the classes
+
+So our model maps X to y
+Pretty basic stuff ! So lets define the X for us.
+Had our problem been like some prediction being made froma sequence of numbers, this is a no brainer. But here we have audio clips as input and strings as output.
+Well we will one-hot encode the string classes and get a vector consisting of numbers, well thats a no-brainer. 
+The trickier aspect is to deal with the audio clip.
+
+
+So we have to vectorize audio signals. What it means is that we take the audio signal and convert it into a matrix comprising of numbers. we will figure out how to do that. Lets have a section separately for that.
+
+Before we proceed any further, lets figure out some datasets for training our model. We will try to search for suitable datasets in the internet. But we are are unlucky we will create a dataset ourselves. 
+
+[Day 2]
+
 
 
 
